@@ -16,6 +16,17 @@
   <developer_name>Dmitry Kann</developer_name>
   <content_rating type="oars-1.1"/>
   <releases>
+    <release date="2022-08-19" version="0.21">
+      <description>
+        <p>Changelog:</p>
+        <ul>
+          <li>Add Ctrl+Shift+Left/Right shortcuts for seeking through current track (#56)</li>
+          <li>Scale album art proportionally (#59)</li>
+          <li>Add embedded album art image support (#52)</li>
+          <li>Add image size setting for album artwork</li>
+        </ul>
+      </description>
+    </release>
     <release version="0.20" date="2022-05-29">
       <description>
         <p>Changelog:</p>
