@@ -65,10 +65,10 @@ modules:
       #         echo -e "- type: archive\n  url: $u\n  strip-components: 0\n  dest: vendor\n  sha256: $(curl -fsS "$u" | sha256sum -b | cut -d ' ' -f 1)\n"
       #     done
       - type: archive
-        url: https://proxy.golang.org/github.com/fhs/gompd/v2/@v/v2.2.0.zip
+        url: https://proxy.golang.org/github.com/fhs/gompd/v2/@v/v2.2.1-0.20220620205817-bbf835995263.zip
         strip-components: 0
         dest: vendor
-        sha256: aa1e30ca5aa6596d6c7bd4e3faf87028c5e4ad081e86853a11df2c5674bbc43d
+        sha256: 1dd6f94345625d6a6f7a0c9d72653d044df1824c2905248c1b20db0a13b5b57e
 
       - type: archive
         url: https://proxy.golang.org/github.com/gotk3/gotk3/@v/v0.6.1.zip
