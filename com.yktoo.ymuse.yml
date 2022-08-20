@@ -38,7 +38,7 @@ modules:
 
       # Copy over the required resources (launcher, icons, localisations)
       - mkdir -p /app/share/icons /app/share/locale
-      - install -Dm644 resources/ymuse.desktop -t /app/share/applications/
+      - install -Dm644 resources/com.yktoo.ymuse.desktop -t /app/share/applications/
       - install -Dm644 resources/metainfo/com.yktoo.ymuse.appdata.xml -t /app/share/metainfo/
       - cp -r resources/i18n/generated/* /app/share/locale/
       - cp -r resources/icons/hicolor    /app/share/icons/
