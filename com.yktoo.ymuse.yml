@@ -10,8 +10,6 @@ finish-args:
   - --share=network
   - --socket=fallback-x11
   - --socket=wayland
-rename-icon: ymuse
-rename-desktop-file: ymuse.desktop
 modules:
   - name: ymuse
     buildsystem: simple
@@ -42,7 +40,6 @@ modules:
       - install -Dm644 resources/metainfo/com.yktoo.ymuse.appdata.xml -t /app/share/metainfo/
       - cp -r resources/i18n/generated/* /app/share/locale/
       - cp -r resources/icons/hicolor    /app/share/icons/
-      - rm /app/share/icons/hicolor/scalable/apps/icon.svg
     sources:
       - type: git
         url: https://github.com/yktoo/ymuse
