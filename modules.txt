@@ -1,7 +1,7 @@
-# github.com/fhs/gompd/v2 v2.2.1-0.20220620205817-bbf835995263
+# github.com/fhs/gompd/v2 v2.3.0
 ## explicit; go 1.11
 github.com/fhs/gompd/v2/mpd
-# github.com/gotk3/gotk3 v0.6.1
+# github.com/gotk3/gotk3 v0.6.2
 ## explicit; go 1.14
 github.com/gotk3/gotk3/cairo
 github.com/gotk3/gotk3/gdk
