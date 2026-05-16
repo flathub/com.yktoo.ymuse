@@ -1,6 +1,6 @@
 app-id: com.yktoo.ymuse
 runtime: org.freedesktop.Platform
-runtime-version: '24.08'
+runtime-version: '25.08'
 sdk: org.freedesktop.Sdk
 sdk-extensions:
   - org.freedesktop.Sdk.Extension.golang
@@ -44,6 +44,7 @@ modules:
       - type: git
         url: https://github.com/yktoo/ymuse
         tag: v0.22
+        commit: b7b01d9db61a7d99b9d1e5aa62580274790188da
       - type: file
         path: com.yktoo.ymuse.appdata.xml
         dest: resources/metainfo
